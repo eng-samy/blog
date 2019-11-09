@@ -16,7 +16,7 @@
       <h4 class="modal-title" id="myModalLabel">Update User Profile</h4>
     </div>
     <div class="modal-body">
-        <form action="<?php echo url('/admin/profile/update'); ?>" class="form-modal form">
+        <form action="<?php echo url('admin/profile/update'); ?>" class="form-modal form">
         <div id="form-results"></div>
         <div class="form-group col-sm-6">
           <label for="first_name">First Name</label>

@@ -7,7 +7,7 @@
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?php echo url('/admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="<?php echo url('admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li class="active">Posts</li>
       </ol>
     </section>
@@ -20,7 +20,7 @@
               <div class="box box-primary" id="posts-list">
                 <div class="box-header with-border">
                   <h3 class="box-title">Manage Your Users </h3>
-                  <button class="btn btn-primary pull-right open-popup" type="button" data-modal-target="#add-post-form" data-target="<?php echo url('/admin/posts/add'); ?>">Add New Post</button>
+                  <button class="btn btn-primary pull-right open-popup" type="button" data-modal-target="#add-post-form" data-target="<?php echo url('admin/posts/add'); ?>">Add New Post</button>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">

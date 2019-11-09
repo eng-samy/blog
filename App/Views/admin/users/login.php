@@ -33,7 +33,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
 
-    <form action="<?php echo url('/admin/login/submit'); ?>" method="post" id="login-form">
+    <form action="<?php echo url('admin/login/submit'); ?>" method="post" id="login-form">
       <div id="login-results" style="font-weight: bold"></div>
       <div class="form-group has-feedback">
         <input type="email" class="form-control" name="email" placeholder="Email" required="required">

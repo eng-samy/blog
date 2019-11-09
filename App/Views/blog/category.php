@@ -1,7 +1,7 @@
     <!-- Breadcrumb -->
     <ul class="breadcrumb box">
         <li>
-            <a href="<?php echo url('/'); ?>">Home</a>
+            <a href="<?php echo url(''); ?>">Home</a>
         </li>
         <li class="active"><?php echo $category->name; ?></li>
     </ul>

@@ -13,20 +13,20 @@
             </a>
         </div>
         <h1 class="heading">
-            <a href="<?php echo url('/post/' . seo($post->title) . '/' . $post->id); ?>"><?php echo $post->title; ?></a>
+            <a href="<?php echo url('post/' . seo($post->title) . '/' . $post->id); ?>"><?php echo $post->title; ?></a>
         </h1>
         <div class="date-container">
             <span class="fa fa-calendar"></span>
             <span class="date"><?php echo date('d/m/Y h:i A',$post->created);?></span>
         </div>
         <div class="clearfix"></div>
-        <a href="<?php echo url('/post/' . seo($post->title) . '/' . $post->id); ?>" class="image-box">
+        <a href="<?php echo url('post/' . seo($post->title) . '/' . $post->id); ?>" class="image-box">
             <img src="<?php echo assets('images/' . $post->image); ?>" alt="<?php echo $post->title; ?>" />
         </a>
         <p class="details">
             <?php echo html_entity_decode(read_more($post->details, 20)) ;?>...
         </p>
-        <a href="<?php echo url('/post/' . seo($post->title) . '/' . $post->id); ?>" class="read-more">
+        <a href="<?php echo url('post/' . seo($post->title) . '/' . $post->id); ?>" class="read-more">
             Read More
             <span class="fa fa-long-arrow-right"></span>
         </a>

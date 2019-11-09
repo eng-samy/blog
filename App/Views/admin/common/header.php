@@ -76,7 +76,7 @@
                     </button>
                 </li>
                 <li>
-                    <a href="<?php echo url('/admin/logout') ?>" class="btn btn-default">
+                    <a href="<?php echo url('admin/logout') ?>" class="btn btn-default">
                         <span class="fa fa-power-off"></span>
                         Logout
                     </a>
@@ -85,7 +85,7 @@
           </li>
           <!-- Control Sidebar Toggle Button -->
           <li>
-            <a href="<?php echo url('/admin/logout'); ?>">
+            <a href="<?php echo url('admin/logout'); ?>">
                 <span class="fa fa-power-off"></span>
                 Logout
             </a>

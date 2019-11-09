@@ -7,7 +7,7 @@
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?php echo url('/admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="<?php echo url('admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
         <li class="active">Categories</li>
       </ol>
     </section>
@@ -20,7 +20,7 @@
               <div class="box box-primary" id="users-list">
                 <div class="box-header with-border">
                   <h3 class="box-title">Manage Your Categories</h3>
-                  <button class="btn btn-primary pull-right open-popup" type="button" data-modal-target="#add-category-form" data-target="<?php echo url('/admin/categories/add'); ?>">Add New Category</button>
+                  <button class="btn btn-primary pull-right open-popup" type="button" data-modal-target="#add-category-form" data-target="<?php echo url('admin/categories/add'); ?>">Add New Category</button>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">

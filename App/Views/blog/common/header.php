@@ -37,14 +37,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="<?php echo url('/'); ?>">My Blog</a>
+              <a class="navbar-brand" href="<?php echo url(''); ?>">My Blog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="<?php echo url('/'); ?>">Home</a>
+                    <a href="<?php echo url(''); ?>">Home</a>
                 </li>
 
                 <li class="dropdown">
@@ -74,15 +74,15 @@
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                        <a href="<?php echo url('/admin') ?>">Blog Admin</a>
-                        <a href="<?php echo url('/logout') ?>">Logout</a>
+                        <a href="<?php echo url('admin') ?>">Blog Admin</a>
+                        <a href="<?php echo url('logout') ?>">Logout</a>
                     </li>
 
                   </ul>
                 </li>
                 <?php } else { ?>
-                    <li><a href="<?php echo url('/login'); ?>">Login</a></li>
-                    <li><a href="<?php echo url('/register'); ?>">Sign Up</a></li>
+                    <li><a href="<?php echo url('login'); ?>">Login</a></li>
+                    <li><a href="<?php echo url('register'); ?>">Sign Up</a></li>
                 <?php } ?>
               </ul>
             </div><!-- /.navbar-collapse -->

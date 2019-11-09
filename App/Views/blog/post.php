@@ -1,10 +1,10 @@
 <!-- Breadcrumb -->
 <ul class="breadcrumb box">
     <li>
-        <a href="<?php echo url('/'); ?>">Home</a>
+        <a href="<?php echo url(''); ?>">Home</a>
     </li>
     <li>
-        <a href="<?php echo url('/category/' . seo($post->category) . '/' . $post->category_id); ?>"><?php echo $post->category; ?></a>
+        <a href="<?php echo url('category/' . seo($post->category) . '/' . $post->category_id); ?>"><?php echo $post->category; ?></a>
     </li>
     <li class="active"><?php echo $post->title; ?></li>
 </ul>
@@ -79,7 +79,7 @@
         </div>
         <!--/ Comments -->
         <!-- Comment Form -->
-        <form action="<?php echo url('/post/' . seo($post->title) . '/' . $post->id . '/add-comment'); ?>" method="post" id="comment-form" class="box">
+        <form action="<?php echo url('post/' . seo($post->title) . '/' . $post->id . '/add-comment'); ?>" method="post" id="comment-form" class="box">
             <h3 class="heading">Post Comment</h3>
             <textarea name="comment" id="comment" class="input" placeholder="Post Your Comment" cols="30" rows="10" required="required"></textarea>
             <button class="comment-button">Submit</button>

@@ -4,7 +4,7 @@
     <div class="centered-content">
         <h1 class="heading">Create New Account</h1>
         <!-- Form -->
-        <form action="<?php echo url('/register/submit'); ?>" class="form">
+        <form action="<?php echo url('register/submit'); ?>" class="form">
             <div id="form-results"></div>
             <div class="form-group">
                 <label for="first_name" class="col-sm-3 col-xs-12">First Name</label>

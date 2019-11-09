@@ -7,7 +7,7 @@
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?php echo url('/admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="<?php echo url('admin'); ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
       </ol>
     </section>
 

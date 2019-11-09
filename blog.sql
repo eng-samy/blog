@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Nov 09, 2019 at 01:45 PM
--- Server version: 10.1.21-MariaDB
--- PHP Version: 7.1.1
+-- Host: localhost:3306
+-- Generation Time: Nov 09, 2019 at 02:52 PM
+-- Server version: 5.6.43
+-- PHP Version: 7.2.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -17,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `blog`
+-- Database: `samy_blog`
 --
 
 -- --------------------------------------------------------
@@ -94,7 +96,8 @@ INSERT INTO `posts` (`id`, `category_id`, `user_id`, `title`, `details`, `image`
 (13, 3, 1, 'THE BEST WALKING TOURS IN PARIS', '&lt;p&gt;I love visiting&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/france-travel-tips/paris/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Paris&lt;/a&gt;. I&amp;rsquo;ve been going there for over nine years and have yet to tire of the history, the charm, or the food (and wine!).&lt;/p&gt;\r\n\r\n&lt;p&gt;Over the years, I&amp;rsquo;ve taken a million different tours of this amazing city to learn more about what makes it tick. For four months earlier this year,&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/life-in-paris/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;I lived in Paris&lt;/a&gt;, and had the opportunity to check out even more walking tours.&lt;/p&gt;\r\n\r\n&lt;p&gt;And there were a lot to check out!&lt;/p&gt;\r\n\r\n&lt;p&gt;There are dozens upon dozens of companies covering all aspects of life in Paris, and it can be hard to make a sense of all those endless Viator and Tripadvisor listings. It&amp;rsquo;s obscene how many tour companies there are. (I mean I&amp;rsquo;ve tried so many tour companies and I STILL have more on my list to try (and some to retry).)&lt;/p&gt;\r\n\r\n&lt;p&gt;But, I still feel like I&amp;rsquo;ve done enough to warrant a post on some of the best walking tour companies in Paris, so, today, I want to share with you my top favorites:&lt;/p&gt;\r\n\r\n&lt;h3&gt;1. New Europe Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;The crowded steps of Sacre Coeur atop Montmartre in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours2.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://www.neweuropetours.eu/paris-walking-tours/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;New Europe&lt;/a&gt;&amp;nbsp;is one of the most popular free walking tour companies in all of Europe. Their main free tour takes you around the center of Paris and gives you a historical overview of the city. They also run a good (but paid) tour of Montmartre, and they have a really fun pub crawl as well if you&amp;rsquo;re looking to hit the bars with other travelers.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;The basic tour will last around three hours and is free, though you&amp;rsquo;ll want to tip your guides. Some tours cost 15-35 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;2. City Free Tour&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;The sun shining over the historic Pantheon in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours3.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://cityfreetour.com/paris/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;This free-tour company&lt;/a&gt;, like New Europe, offers a couple great general tours to help you get familiar with the City of Light, led by a local expert who can answer your questions. They also offer a few specialized tours so you can really focus on different neighborhoods. For example, the Montmartre tour does a great job of showing you just what life is like in this famous bohemian neighborhood, while the Latin Quarter tour highlights some of the most famous landmarks in town.&lt;/p&gt;\r\n\r\n&lt;h3&gt;3. Discover Walks&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;Tourists exploring the exterior of the Louvre in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/pariswalks4.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://www.discoverwalks.com/tour/city/paris-walking-tours/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Discover Walks&lt;/a&gt;&amp;nbsp;offers free walking tours, as well as paid options if you&amp;rsquo;re looking for something more focused and in-depth. With almost 30 tours on offer in Paris, chances are you&amp;rsquo;ll be able to find something to pique your interest. They have a great free tour of the Latin Quarter, and there&amp;rsquo;s even a vegetarian and gluten-free food tour! For something more unique, try the photography tour.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Free tours last around 90 minutes. A recommended tip of 13 EUR is suggested. For the paid tour options, prices start at 25 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;4. Localers&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;Walking down a path surrouned by trees near the Eiffel Tower in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours5.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://www.localers.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Localers&lt;/a&gt;&amp;nbsp;are a great choice if you&amp;rsquo;re looking for a unique tour option and want something more nuanced than just a free walking tour. They tend to specialize in more niche tours like literary, art or historical tours. I enjoyed their tours a lot. I hadn&amp;rsquo;t heard of them before I moved here and was bummed their tours had flown under my radar for so long.&lt;/p&gt;\r\n\r\n&lt;p&gt;The World War II tour is particularly insightful and does a great job of illuminating the war&amp;rsquo;s true cost to Paris. I also really liked the Scandalous Paris tour, which highlights Paris&amp;rsquo; brothels and more colorful past. There&amp;rsquo;s also an insightful literary tour too that takes you through the literary history of the city&amp;rsquo;s left bank. This is a solid mid-range tour company for travelers looking for value.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours last 2-5 hours. Tickets start at 58 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;5. Context Travel&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;The ornate golden gates of the Palace of Versailles near Paris, France surrounded by tourists&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours6.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://www.contexttravel.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Context Travel&lt;/a&gt;&amp;nbsp;hires experts in their fields so that every tour is an incredible educational experience and you&amp;rsquo;ll go much deeper than any free walking tour does. I am always shocked by how much I learn! I particularly love the Paris Market Tour and the Versailles Tour (which is four hours long, but you learn a ton). Context isn&amp;rsquo;t cheap, and the tours are usually long &amp;mdash; but they&amp;rsquo;re worth every penny if you&amp;rsquo;re serious about really learning a lot.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours start at 100 EUR per person. They include a maximum of six people at a time.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;6. Walks&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;The empty courtyard of Les Invalides in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours7.jpg&quot; /&gt;&lt;br /&gt;\r\nWhat makes&amp;nbsp;&lt;a href=&quot;https://www.takewalks.com/?tap_a=29774-b9abbb&amp;amp;tap_s=37909-476f1e&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Walks&lt;/a&gt;&amp;nbsp;amazing is that they get better access than most tour companies and hire specialized guides. You get to skip the line, go before or after other tours so you have the space to yourself, and get fun guides who are knowledgeable in their field. They also have a nine-hour full-day tour of the city for anyone looking to really explore (it&amp;rsquo;s a great option if you&amp;rsquo;re short on time but still want to see everything).&lt;/p&gt;\r\n\r\n&lt;p&gt;Their tours are reasonably priced, and their guides always know their stuff. I&amp;rsquo;ve gone on three of their tours and loved them all.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Most tours last 2-3 hours, though some take the entire day. Tickets start at 55 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;7. Fat Tire Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;A single Fat Tire Tour bicycle parked on the sidewalk in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours8.jpg&quot; /&gt;&lt;br /&gt;\r\nOffering cycling tours of Paris,&amp;nbsp;&lt;a href=&quot;https://www.fattiretours.com/?ref=mattkepnes2&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Fat Tire Tours&lt;/a&gt;&amp;nbsp;are probably the best bike tour in town. I don&amp;rsquo;t think I&amp;rsquo;d go with anyone else. Their bike tours are the best. Do their Versailles tour &amp;ndash; and try to do it on Sunday or Tuesday when they stop at the market that is open then) and, if you can, check out their Monet&amp;rsquo;s Garden tour where you can cycle around the gardens of the famous impressionist while exploring the charming village of Giverny.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Most tours last 2-3 hours, though there are several full-day options available too. Tickets start at 34 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;8. Paris by Mouth&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;A delicious plate of local food in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours9.jpg&quot; /&gt;&lt;br /&gt;\r\n&lt;a href=&quot;https://parisbymouth.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Paris by Mouth&lt;/a&gt;&amp;nbsp;company offers a handful of neighborhood tours that highlight the best food in Paris. The groups are kept small (no more than eight people) and they are really focused on providing a lot of information on food, history, and culture. It&amp;rsquo;s like a mini-class more than it is a chance to just eat food (though you do that too).&lt;/p&gt;\r\n\r\n&lt;p&gt;The tours aren&amp;rsquo;t super budget friendly but if you&amp;rsquo;re looking for a really detailed food tour, this company would be it. And if you&amp;rsquo;re a diehard fan of French cheese like I am, they also have an entire workshop just for cheese. It&amp;rsquo;s amazing.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours usually last around three hours. Tickets start at 110 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;9. Secret Food Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;A display case full of colorful macaroons in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours10.jpg&quot; /&gt;&lt;br /&gt;\r\nWhile not the cheapest,&amp;nbsp;&lt;a href=&quot;https://www.secretfoodtours.com/paris/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Secret Food Tours&lt;/a&gt;&amp;nbsp;offers neighborhood-specific food tours. They also have a dangerously delicious pastry and chocolate tour that will take you around to half a dozen bakeries and shops to give you a firsthand experience of Paris&amp;rsquo;s love of decadent desserts. You&amp;rsquo;ll get A LOT of food during the tour, so come hungry. Be sure to avoid Monday tours, when most markets are closed and you end up just eating in one location instead of going from shop to shop.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours last 2-3 hours. Tickets start at 89 EUR per person. They can sell out weeks in advance, so be sure to reserve early!&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;10. Eating Europe&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;Bakers working in a popular cafe in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours11.jpg&quot; /&gt;&lt;br /&gt;\r\nEating Europe&amp;rsquo;s Paris food tour,&amp;nbsp;&lt;a href=&quot;https://www.eatingeurope.com/paris/paris-hip-eats-and-back-streets-food-tour/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Hip Eats and Backstreets&lt;/a&gt;, is one of the most sought-after food tours in town. You&amp;rsquo;ll have the opportunity to try some of the best foods in Paris while also getting to chat with the chefs and entrepreneurs who have brought the dishes to life. It&amp;rsquo;s not just a tour where you get to eat amazing food but rather an experience during which you&amp;rsquo;ll learn about the culinary traditions and innovations firsthand from local artisans. It&amp;rsquo;s the perfect tour for any die-hard foodies.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours last four hours and they depart at 12:30pm Tuesday through Saturday. Tickets are 95 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://www.eatingeurope.com/paris/paris-hip-eats-and-back-streets-food-tour/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&amp;mdash;&amp;gt; Click here to book your tour with Eating Europe!&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;11. Street Art Tour Paris&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;A large street art portrait painted on a wall in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours12.jpg&quot; /&gt;&lt;br /&gt;\r\nFor an insider, niche tour about Paris&amp;rsquo;s art scene, check out&amp;nbsp;&lt;a href=&quot;https://www.streetarttourparis.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Street Art Tour Paris&lt;/a&gt;. Their guides are all artists and will take you around various neighborhoods to show you the best and most interesting works of street art (and murals) that Paris has to offer. They also have a tour that focuses exclusively on female artists.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours operate 2-3 times per week based on interest (usually on the weekends) and last around 2.5 hrs. Tickets start at 20 EUR per person.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;h3&gt;12. Paris Bar Crawl&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;The patio of a busy bar a night in Paris, France&quot; src=&quot;https://media.nomadicmatt.com/2019/paristours13.jpg&quot; /&gt;&lt;br /&gt;\r\nIf you&amp;rsquo;re looking for a more rambunctious way to spend an evening, head out on a pub crawl.&amp;nbsp;&lt;a href=&quot;https://www.parisbarcrawl.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Paris Bar Crawl&lt;/a&gt;&amp;nbsp;is one of the most popular ones (it tends to be just for tourists and visiting students though). You&amp;rsquo;ll meet a bunch of new people while seeing what nightlife in Paris is all about. The tour visits three bars and one club.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;em&gt;Tours start at 8:30pm Thursday-Saturday and last until you decide to go home! Tickets are 15 EUR per person and include three shots as well as admission to a club.&lt;/em&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n\r\n&lt;p&gt;Walking tours are a great way to get below the surface of&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/france-travel-tips/paris/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Paris&lt;/a&gt;. Every time I visit, I always make sure to try a new one. Having an expert guide to answer your questions while providing in-depth, local knowledge is the best way to deepen your experience as a traveler.&lt;/p&gt;\r\n\r\n&lt;p&gt;These walking tour companies are the best in Paris and will be able to provide you with the insight and information you need to really make the most out of your next visit to this incredible city.&lt;/p&gt;', '480f7965315ed906ebea0b36be76e76e88938874_04a806613a970ab8b8654fa800412c4665f90087.jpg', 'PARIS', '12', 0, 1573303063, 'enabled');
 INSERT INTO `posts` (`id`, `category_id`, `user_id`, `title`, `details`, `image`, `tags`, `related_posts`, `views`, `created`, `status`) VALUES
 (14, 1, 1, 'THE BEST TOUR COMPANIES IN EGYPT', '&lt;p&gt;Egypt is a country that tops the bucket-list country for many travelers. It&amp;rsquo;s a country filled with&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/ten-historical-sites/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;incredible relics of ancient history&lt;/a&gt;, from the Pyramids and Great Sphinx of Giza, and offers tons of incredible activities for travelers of all walks of life. Floating down the Nile River on a traditional felucca, exploring the tombs of Tutankhamen and other pharaohs in the Valley of the Kings, snorkeling and diving in the coral fantasyland of the Red Sea &amp;mdash; there&amp;rsquo;s just so many amazing parts of Egypt to amaze and enthrall you.&lt;/p&gt;\r\n\r\n&lt;p&gt;These days, Egypt is a destination many travelers shy away from. Given that there have been some terrorist attacks targeting tourists over the last couple of decades and that people are still wary of the changes in government since the Arab Spring, those concerns are understandable.&lt;/p&gt;\r\n\r\n&lt;p&gt;However, since 2017, tourism numbers have begun to increase again. In fact, they are growing so fast they might hit an all-time record in 2019 or 2020.&lt;/p&gt;\r\n\r\n&lt;p&gt;Things have been changing for the better in Egypt and it&amp;rsquo;s now a safe country to visit for the intrepid traveler. That means it&amp;rsquo;s time to start planning your dream trip to this diverse and historic country.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/why-solo-travel/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;While I am a huge fan of solo travel&lt;/a&gt;, distances between the most popular sights in Egypt are pretty far. You can expect to spend a full day or night traveling by road or rail between Cairo and Luxor, for example, so joining an organized tour can help you make the most of your time.&lt;/p&gt;\r\n\r\n&lt;p&gt;And it can also save you some money, too!&lt;/p&gt;\r\n\r\n&lt;p&gt;Tours in Egypt often work out to be cheaper than trying to put together your own trip as some will include domestic airfare for prices cheaper than you&amp;rsquo;ll be able to get on your own.&lt;/p&gt;\r\n\r\n&lt;p&gt;Taking a tour with a reputable company also ensures that you&amp;rsquo;ll have safe detours with someone who really knows the lay of the land and will keep you informed of any risks. Knowledgeable tour guides also make for a more interesting trip &amp;mdash; which is why tours in Egypt are so popular.&lt;/p&gt;\r\n\r\n&lt;p&gt;Here is a list of the best tour companies in Egypt, offering everything from day trips around Cairo to multiday tours around the country:&lt;/p&gt;\r\n\r\n&lt;h3&gt;1. Intrepid&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;http://www.dpbolvw.net/click-3032045-12356898-1443635018000&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Intrepid&lt;/a&gt;&amp;nbsp;is one of my favorite tour companies in the world.&lt;/p&gt;\r\n\r\n&lt;p&gt;I&amp;rsquo;ve been on a handful of their tours over the years to destinations all around the world and have yet to be disappointed. Their local guides provide invaluable insight and they are dedicated to making environmentally friendly choices too.&lt;/p&gt;\r\n\r\n&lt;p&gt;And the company just hires really awesome people too.&lt;/p&gt;\r\n\r\n&lt;p&gt;In Egypt, Intrepid has tours that range between eight and fifteen days. To be able to see enough in just eight days, they fly you between Cairo and the south, so the cheaper trip is actually the 15-day one, which uses a mix of bus, boat, and train travel, starting around $1,200 USD. Intrepid also has some specialized offerings, with a nine-day trip for travelers aged 18&amp;ndash;29, trips especially for families, and also one just for solo travelers.&lt;/p&gt;\r\n\r\n&lt;p&gt;If you&amp;rsquo;re keen to explore beyond Egypt,&amp;nbsp;&lt;a href=&quot;http://www.dpbolvw.net/click-3032045-12356898-1443635018000&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Intrepid&lt;/a&gt;&amp;nbsp;also offers a range of longer tours that take in&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/trusting-others-in-jordan/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Jordan&lt;/a&gt;,&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/budget-israel-road-trip/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Israel&lt;/a&gt;, and Palestine as well.&lt;/p&gt;\r\n\r\n&lt;h3&gt;2. Memphis Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;One of the first tour companies in Egypt,&amp;nbsp;&lt;a href=&quot;https://www.memphistours.com/Egypt/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Memphis Tours&lt;/a&gt;&amp;nbsp;has been around since 1955. It offers a huge variety of tours &amp;ndash; from half- or full-day tours in Cairo or Alexandria to snorkeling or camel-riding trips out of resort destinations like Sharm el-Sheikh, ranging between $35 and $90 USD per person.&lt;/p&gt;\r\n\r\n&lt;p&gt;They also offer a selection of cruises both on the Nile and on Lake Nasser. The popular Luxor-to-Aswan trip along the Nile can be made in a variety of pretty luxurious ships; prices are around $500 USD per person for a four-day trip.&lt;/p&gt;\r\n\r\n&lt;p&gt;Memphis Tours also offer fully organized multi-day trips that last between 3&amp;ndash;15 days. Many of these take in the key sights, like the Pyramids, a Nile cruise, and the Luxor and Karnak Temples, and typically fly you back to Cairo. The costs vary depending on the extra activities involved but are pretty reasonable: small group tours covering the main sights from Cairo to Luxor start at $1,100 USD. They also offer some specialized tours, such as one specifically designed to accommodate wheelchair users.&lt;/p&gt;\r\n\r\n&lt;h3&gt;3. Look at Egypt Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;http://www.lookategypttours.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Look at Egypt Tours&lt;/a&gt;&amp;nbsp;is another local company that offers both day and multiday tours. It specializes in having knowledgeable guides that make the history of Egypt really come alive, giving incredible insight into modern-day Egyptian life as well.&lt;/p&gt;\r\n\r\n&lt;p&gt;The company also has a sense of social responsibility too, using locally owned restaurants and hotels on all trips and hiring guides from communities throughout the country.&lt;/p&gt;\r\n\r\n&lt;p&gt;Look at Egypt Tours runs a variety of day trips out of the main centers, including Cairo, Alexandria, Luxor, and Sharm el-Sheikh, ranging in cost between $50 and $150 USD per person, depending on the destination and the group size.&lt;/p&gt;\r\n\r\n&lt;p&gt;Multi-day tours include lots of options too; these last around 8&amp;ndash;10 days and cost between $1,500 and $2,000 USD. There are also some specialized trips, like a two-week archaeological tour, the perfect choice for any history buffs (or Indiana Jones fans!).&lt;/p&gt;\r\n\r\n&lt;h3&gt;4. On the Go Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://www.onthegotours.com/us/Egypt&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;On the Go Tours&lt;/a&gt;&amp;nbsp;has been running tours to a variety of countries for a couple of decades now, but it all started in Egypt, where the two founders met. The company focuses on sustainable travel and supports local communities, and it hires local guides who have studied Egyptology at a college level as well.&lt;/p&gt;\r\n\r\n&lt;p&gt;In Egypt, they run several great-value group tours, like an eight-day trip from Cairo to Luxor for $400 USD, which includes the Pyramids of Giza, the incredible Egyptian Museum in Cairo, the temples at Luxor, a two-night felucca cruise on the Nile, a visit to the Valley of the Kings, and more. Accommodations are more budget-oriented than many other tour companies, making this a great option for backpackers.&lt;/p&gt;\r\n\r\n&lt;p&gt;If your timing and budget are more flexible, you might also take a look at some of On the Go&amp;rsquo;s festival tours, timed to celebrations like the Abu Simbel Sun Festival or the King Ramses Sun Festival. These tours are typically around ten days long and range between $1,600 and $2,800 USD per person, depending on whether they include internal flights.&lt;/p&gt;\r\n\r\n&lt;h3&gt;5. Jakada Tours Egypt&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://jakadatoursegypt.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Jakada Tours&lt;/a&gt;&amp;nbsp;is a smaller company that offers private tours as well as group trips with a focus on budget mid-range travel.&lt;/p&gt;\r\n\r\n&lt;p&gt;Trips covering many of Egypt&amp;rsquo;s highlights and lasting between seven and ten days range from $600 to $1,000 USD. If you&amp;rsquo;re on your second trip to Egypt or have some extra time, Jakada also offers a range of more unusual tours, like spending time at the Cairo camel market!&lt;/p&gt;\r\n\r\n&lt;p&gt;The company also makes sure its guides are really knowledgeable, not just about ancient history but modern Egyptian culture too, as well as all the best local tips and tricks to help you make the most out of your stay.&lt;/p&gt;\r\n\r\n&lt;h3&gt;6. Exodus Travels&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://www.exodustravels.com/egypt-holidays&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Exodus&lt;/a&gt;&amp;nbsp;offers trips worldwide and has a reputable social conscience; they aim to give back to the local communities they are a part of. In Egypt, they support Animal Care in Egypt (ACE), and its tours often include an option to visit the charity&amp;rsquo;s facility.&lt;/p&gt;\r\n\r\n&lt;p&gt;Exodus offers a nine-day Nile cruise from Luxor, which is a good compromise between luxury and price (around $1,400 USD per person, all-inclusive), with a maximum of 20 passengers. The company also has a longer trip that takes in key sights like the Valley of the Kings as well as Alexandria; this two-week tour starts at $2,000 USD.&lt;/p&gt;\r\n\r\n&lt;h3&gt;7. Beyond the Nile Tours&lt;/h3&gt;\r\n\r\n&lt;p&gt;&lt;a href=&quot;https://beyondtheniletours.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Beyond the Nile Tours&lt;/a&gt;&amp;nbsp;is another Egypt-based tour company using local, highly educated guides with lots of historical and cultural knowledge. It offers three tours, ranging between eight days and two weeks in length; on all of them, you can be flexible with your budget, as some activities, like a balloon ride over the Pyramids ($100 USD), are optional.&lt;/p&gt;\r\n\r\n&lt;p&gt;All these tours kick off in Cairo with a full day exploring what we all dream of seeing &amp;mdash; the Pyramids of Giza and the Sphnix &amp;mdash; along with the Egyptian Museum to put the history into context. Then you&amp;rsquo;re flown down to Luxor and cruise from there to the Valley of the Kings, among other places. On the longer trips, you can choose to travel back north more slowly, or you can include several days relaxing at a Red Sea resort. Tour prices range from $1,200 to $1,400 USD per person, with some additional costs for extra activities.&lt;/p&gt;', 'f6c4789bd012bb0d1db9c021e314d640ece80edb_1cc2d67ee00e3cdaac397b109593c8a16b2a839b.jpg', 'EGYPT', '', 0, 1573303389, 'enabled'),
-(16, 10, 1, 'IS PERU SAFE TO VISIT?', '&lt;p&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/peru-travel-tips/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Peru&lt;/a&gt;&amp;nbsp;is receiving record numbers of tourists these days, with over four million a year going to experience the third-largest country in South America.&lt;/p&gt;\r\n\r\n&lt;p&gt;Whether to visit Machu Picchu, the floating islands of Lake Titicaca, the Nazca Lines, or the vibrant capital city of Lima and its blossoming food scene, people are flocking to Peru in droves.&lt;/p&gt;\r\n\r\n&lt;p&gt;However, I also often hear and read about tourists getting mugged or hear being stolen. I get worried emails from travelers wondering if Peru is safe to visit.&lt;/p&gt;\r\n\r\n&lt;p&gt;Today, I want to answer their questions:&lt;/p&gt;\r\n\r\n&lt;p&gt;Is safe to visit Peru? What do you need to look out for? What precautions do you need to take?&lt;/p&gt;\r\n\r\n&lt;h2&gt;9 Safety Tips for Peru&lt;/h2&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;a woman selling bananas sits in the street in Peru&quot; src=&quot;https://media.nomadicmatt.com/2019/peru_streets.jpg&quot; /&gt;&lt;br /&gt;\r\nIn general, Peru is a pretty safe place to visit. You&amp;rsquo;re not going to get kidnapped or murdered there, but Peru does require you to be a bit more vigilant than other places. There is a lot of petty crime against tourists, especially those who are careless and leave valuables around.&lt;/p&gt;\r\n\r\n&lt;p&gt;Here are nine tips that should help you understand what the risks are and make sure your trip to Peru is even safer:&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;1. Avoid displaying any expensive belongings&lt;/strong&gt;&amp;nbsp;&amp;ndash; Keep your best jewelry out of sight (or even leave it at home). Don&amp;rsquo;t flaunt valuables like your mobile phone or tablet, and always keep an eye on your stuff. Don&amp;rsquo;t even wear airpods on the street. Minimizing the target on your back that says, &amp;ldquo;I&amp;rsquo;m carrying a lot of valuable stuff&amp;rdquo; is very important.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;2. Be aware of thieves or muggers working in pairs or small groups&lt;/strong&gt;&amp;nbsp;&amp;ndash; The trick of distracting you (for example, someone &amp;ldquo;accidentally&amp;rdquo; bumping into you, or a group of kids playing or fighting near you) is often used so that an accomplice can rob you while you&amp;rsquo;re not paying attention to your belongings.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;3. Watch out for pickpockets&lt;/strong&gt;&amp;nbsp;&amp;ndash; In crowded places or on public transit, be aware that thieves could be looking to literally pick your pocket, or slash your bag, to steal from you. Keep some small bills in a separate pocket, so that when you&amp;rsquo;re paying for things, you don&amp;rsquo;t need to put your whole wallet or purse on display.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;4. Avoid traveling alone at night&lt;/strong&gt;&amp;nbsp;&amp;ndash; There have been incidents of people being mugged as they leave a taxi at night in the cities, and repeated reports of bandit activity after dark in some areas, such as Tingo Mar&amp;iacute;a, northwest of Lima, at the entrance to the Tingo Mar&amp;iacute;a National Park. Having at least one friend with you will help if these worst-case scenarios happen, but it is also simply useful as an extra pair of eyes and ears to keep vigilant.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;5. Choose a reputable bus operator&lt;/strong&gt;&amp;nbsp;&amp;ndash; Sometimes the cheapest option isn&amp;rsquo;t the best one. Some of the cheap bus companies have the most reckless drivers and lots of breakdowns, and since Peru has some of the world&amp;rsquo;s worst traffic accident rates, you&amp;rsquo;re usually safer using a slightly pricier bus company. Some of the most reputable bus operators include Cruz del Sur, Oltursa, Civa, and Movil Tours.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;6. Don&amp;rsquo;t use drugs&lt;/strong&gt;&amp;nbsp;&amp;ndash; This is always a good idea. But since Peru produces a lot of cocaine, tourists (especially young backpackers) tend to do a lot of it here. It&amp;rsquo;s not worth the risk, however, since if authorities even suspect you of using drugs, you can be detained for up to 15 days. Buying drugs here supports organized crime, so be smart and skip the drugs.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;7. Learn some Spanish&lt;/strong&gt;&amp;nbsp;&amp;ndash; Being able to speak some basic Spanish will help you in many situations, but if you get in trouble and need help, then you&amp;rsquo;ll really appreciate it. Start with an app like Duolingo or Memrise to&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/four-step-language-learning/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;master some basic vocabulary&lt;/a&gt;, or take a more comprehensive course like those offered by Rosetta Stone. And don&amp;rsquo;t forget to make friends with your Google Translate app.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;8. Be careful in the coca-growing areas&lt;/strong&gt;&amp;nbsp;&amp;ndash; In the Huallaga Valley north of Tingo Mar&amp;iacute;a, cocaine is still being produced, and in the same area in recent years, the Shining Path group (a communist revolutionary organization) has been part of some violent incidents. Although tourists are not generally targeted by drug traffickers or Shining Path members, you still need to be extra vigilant in these areas.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;9.&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/travel-insurance/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Buy travel insurance&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;&amp;ndash; In the case that something does go wrong, it&amp;rsquo;ll be a lot less stressful if you have travel insurance. You should have it whenever you travel, but in a country where petty theft is, unfortunately, a little more common, it&amp;rsquo;s even more important. And of course, it&amp;rsquo;s also important for covering any medical or other emergency situation you might encounter.&lt;/p&gt;\r\n\r\n&lt;p&gt;We recommend&amp;nbsp;&lt;a href=&quot;https://www.worldnomads.com/lovedby/nomadic-matt?affiliate=nmts&amp;amp;subId=brandlink&amp;amp;utm_source=nmts&amp;amp;utm_medium=affiliate&amp;amp;utm_campaign=Affiliate&amp;amp;utm_content=brandlink&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;World Nomads&lt;/a&gt;&amp;nbsp;for travelers under 70, while&amp;nbsp;&lt;a href=&quot;https://www.insuremytrip.com/?linkId=5d1cb667a65d12041eca44ec&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Insure My Trip&lt;/a&gt;&amp;nbsp;is the best choice for travelers over 70.&lt;/p&gt;\r\n\r\n&lt;p&gt;For more information on tarvel insurance, check out these posts:&lt;/p&gt;\r\n\r\n&lt;ul&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/what-does-travel-insurance-cover/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;What Does Travel Insurance ACTUALLY Cover?&lt;/a&gt;&lt;/li&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/best-travel-insurance-companies/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;The 7 Best Travel Companies in 2019&lt;/a&gt;&lt;/li&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/travel-insurance/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to Buy the Best Travel Insurance&lt;/a&gt;&lt;/li&gt;\r\n&lt;/ul&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;alpacas standing on a hill in Peru&quot; src=&quot;https://media.nomadicmatt.com/2019/peru_alpacas.jpg&quot; /&gt;&lt;br /&gt;\r\nWith these travel tips, you&amp;rsquo;ll be able to stay safe while you visit or backpack around Peru! Furthermore, here are answers to some frequently asked questions we get:&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Machu Picchu safe?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Machu Picchu is such a common tourist destination that you&amp;rsquo;ll most likely be safer here than any other part of Peru. Chances are you&amp;rsquo;ll be hiking with a group or in a crowd, so pickpockets and other petty thieves are unlikely to be around. It&amp;rsquo;s much more important to be vigilant in cities like Lima or Cusco.&lt;/p&gt;\r\n\r\n&lt;p&gt;The more important safety issue if you are&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/hiking-the-inca-trail/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;hiking to Machu Picchu&lt;/a&gt;&amp;nbsp;is to take care of your health. Make sure you have plenty of water, and use sunscreen and hats to deal with the heat. If you&amp;rsquo;re not acclimatized to the altitude, then altitude sickness can be a problem; you need to take it seriously if you start to feel sick. Avoid this by staying in Cusco for at least a couple of days before visiting Machu Picchu.&lt;/p&gt;\r\n\r\n&lt;p&gt;Finally, if you use a guide, which is recommended when hiking, make sure they are a licensed operator, as you sometimes hear of unlicensed guides taking you the wrong route and keeping your hiking permit payment for themselves.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Peru safe to travel alone?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Solo travel is pretty common in Peru, and you&amp;rsquo;ll often find plenty of other solo backpackers to spend time with, so it&amp;rsquo;s unlikely you&amp;rsquo;ll be alone that much.&lt;/p&gt;\r\n\r\n&lt;p&gt;Bus travel and being out after dark anywhere is safer in a group, but in general, solo travel in Peru is no more dangerous than traveling with friends or a partner.&lt;/p&gt;\r\n\r\n&lt;p&gt;Remember, too, to avoid really standing out and looking like a tourist. Don&amp;rsquo;t dress in fancy clothes, don&amp;rsquo;t wave your expensive gadgets around, and if you get lost, don&amp;rsquo;t stand there staring at a map. Basically, avoid sticking out like a sore thumb, and you&amp;rsquo;ll immediately reduce the chance of a petty thief deciding you&amp;rsquo;re their next victim.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is it safe to travel to Peru with kids?&lt;/h3&gt;\r\n\r\n&lt;p&gt;On the whole, it&amp;rsquo;s not especially unsafe to take your kids to Peru. Family and children are very important in the Peruvian culture, so you and your kids will be made to feel very welcome.&lt;/p&gt;\r\n\r\n&lt;p&gt;Be careful with particularly small children, though, because they&amp;rsquo;re more susceptible to getting sick from unfiltered water, for example. It&amp;rsquo;s also not recommended to take kids under three to high altitudes such as Machu Picchu.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Peru safe for female travelers?&lt;/h3&gt;\r\n\r\n&lt;p&gt;It&amp;rsquo;s not particularly more&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/female-travel-safety/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;unsafe to be a female traveler&lt;/a&gt;&amp;nbsp;in Peru, though you might be the victim of some unwanted attention, mostly in the form of catcalling &amp;mdash; but just ignore it and move on. Local women in Peru rarely go out to bars without men, so if you are a women-only group in a bar, you might get some extra attention.&lt;/p&gt;\r\n\r\n&lt;p&gt;Avoid being alone if you can, especially after dark, because petty thieves will see you as an easy target. Having said that, if you are a solo female traveler and need help, most locals will be very understanding and do their best to assist you.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Can you drink the water in Peru?&lt;/h3&gt;\r\n\r\n&lt;p&gt;While tap water is plentiful in the country and indoor plumbing is common, it&amp;rsquo;s advised that you boil all your drinking water while in Peru. Make sure to boil your water for at least 1 minute to remove any contaminants. If you have a&amp;nbsp;&lt;a href=&quot;https://amzn.to/2TwpndX&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Lifestraw&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href=&quot;https://amzn.to/2K5Qg68&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;SteriPen&lt;/a&gt;&amp;nbsp;you can use either of those to ensure your water is always safe to drink. Additionally, bring a reusable water bottle to avoid single-use plastic.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Are taxis safe in Peru?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Taxis are relatively safe, but you&amp;rsquo;ll want to make sure that you only use authorized taxis and that you know the rate in advance. If you need a taxi, have your hostel or hotel call one for you and find out what the rate is in advance. Make sure you agree on the fare with the driver in advance, as taxis don&amp;rsquo;t use meters so it&amp;rsquo;s easy to get overcharged if you&amp;rsquo;re not paying attention.&lt;/p&gt;\r\n\r\n&lt;p&gt;Try to avoid riding alone at night, especially if you&amp;rsquo;re a solo female traveler.&lt;/p&gt;\r\n\r\n&lt;p&gt;Peru is an amazing destination no matter what your interests, with a fascinating culture, welcoming people, and amazing landscapes and historical sights. I think everyone should check these out for themselves!&lt;/p&gt;\r\n\r\n&lt;p&gt;You do need to be cautious about your personal safety, however. The most common issues travelers face there are petty theft and pickpocketing, but by exercising a bit of extra vigilance and common sense, you can protect yourself against much of this. If you also make sure you&amp;rsquo;re not carrying valuables in an obvious way and don&amp;rsquo;t have large sums of cash in one place, the risks of having significant losses are really low.&lt;/p&gt;', 'c2eef7c9d90bfb0fbd50857c2b98311eaf85c54f_d4754afcef8595de5fd00cf35f65e6ae64b9f1a3.jpg', 'PERU', '', 0, 1573303773, 'enabled');
+(16, 10, 1, 'IS PERU SAFE TO VISIT?', '&lt;p&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/peru-travel-tips/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Peru&lt;/a&gt;&amp;nbsp;is receiving record numbers of tourists these days, with over four million a year going to experience the third-largest country in South America.&lt;/p&gt;\r\n\r\n&lt;p&gt;Whether to visit Machu Picchu, the floating islands of Lake Titicaca, the Nazca Lines, or the vibrant capital city of Lima and its blossoming food scene, people are flocking to Peru in droves.&lt;/p&gt;\r\n\r\n&lt;p&gt;However, I also often hear and read about tourists getting mugged or hear being stolen. I get worried emails from travelers wondering if Peru is safe to visit.&lt;/p&gt;\r\n\r\n&lt;p&gt;Today, I want to answer their questions:&lt;/p&gt;\r\n\r\n&lt;p&gt;Is safe to visit Peru? What do you need to look out for? What precautions do you need to take?&lt;/p&gt;\r\n\r\n&lt;h2&gt;9 Safety Tips for Peru&lt;/h2&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;a woman selling bananas sits in the street in Peru&quot; src=&quot;https://media.nomadicmatt.com/2019/peru_streets.jpg&quot; /&gt;&lt;br /&gt;\r\nIn general, Peru is a pretty safe place to visit. You&amp;rsquo;re not going to get kidnapped or murdered there, but Peru does require you to be a bit more vigilant than other places. There is a lot of petty crime against tourists, especially those who are careless and leave valuables around.&lt;/p&gt;\r\n\r\n&lt;p&gt;Here are nine tips that should help you understand what the risks are and make sure your trip to Peru is even safer:&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;1. Avoid displaying any expensive belongings&lt;/strong&gt;&amp;nbsp;&amp;ndash; Keep your best jewelry out of sight (or even leave it at home). Don&amp;rsquo;t flaunt valuables like your mobile phone or tablet, and always keep an eye on your stuff. Don&amp;rsquo;t even wear airpods on the street. Minimizing the target on your back that says, &amp;ldquo;I&amp;rsquo;m carrying a lot of valuable stuff&amp;rdquo; is very important.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;2. Be aware of thieves or muggers working in pairs or small groups&lt;/strong&gt;&amp;nbsp;&amp;ndash; The trick of distracting you (for example, someone &amp;ldquo;accidentally&amp;rdquo; bumping into you, or a group of kids playing or fighting near you) is often used so that an accomplice can rob you while you&amp;rsquo;re not paying attention to your belongings.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;3. Watch out for pickpockets&lt;/strong&gt;&amp;nbsp;&amp;ndash; In crowded places or on public transit, be aware that thieves could be looking to literally pick your pocket, or slash your bag, to steal from you. Keep some small bills in a separate pocket, so that when you&amp;rsquo;re paying for things, you don&amp;rsquo;t need to put your whole wallet or purse on display.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;4. Avoid traveling alone at night&lt;/strong&gt;&amp;nbsp;&amp;ndash; There have been incidents of people being mugged as they leave a taxi at night in the cities, and repeated reports of bandit activity after dark in some areas, such as Tingo Mar&amp;iacute;a, northwest of Lima, at the entrance to the Tingo Mar&amp;iacute;a National Park. Having at least one friend with you will help if these worst-case scenarios happen, but it is also simply useful as an extra pair of eyes and ears to keep vigilant.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;5. Choose a reputable bus operator&lt;/strong&gt;&amp;nbsp;&amp;ndash; Sometimes the cheapest option isn&amp;rsquo;t the best one. Some of the cheap bus companies have the most reckless drivers and lots of breakdowns, and since Peru has some of the world&amp;rsquo;s worst traffic accident rates, you&amp;rsquo;re usually safer using a slightly pricier bus company. Some of the most reputable bus operators include Cruz del Sur, Oltursa, Civa, and Movil Tours.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;6. Don&amp;rsquo;t use drugs&lt;/strong&gt;&amp;nbsp;&amp;ndash; This is always a good idea. But since Peru produces a lot of cocaine, tourists (especially young backpackers) tend to do a lot of it here. It&amp;rsquo;s not worth the risk, however, since if authorities even suspect you of using drugs, you can be detained for up to 15 days. Buying drugs here supports organized crime, so be smart and skip the drugs.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;7. Learn some Spanish&lt;/strong&gt;&amp;nbsp;&amp;ndash; Being able to speak some basic Spanish will help you in many situations, but if you get in trouble and need help, then you&amp;rsquo;ll really appreciate it. Start with an app like Duolingo or Memrise to&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/four-step-language-learning/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;master some basic vocabulary&lt;/a&gt;, or take a more comprehensive course like those offered by Rosetta Stone. And don&amp;rsquo;t forget to make friends with your Google Translate app.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;8. Be careful in the coca-growing areas&lt;/strong&gt;&amp;nbsp;&amp;ndash; In the Huallaga Valley north of Tingo Mar&amp;iacute;a, cocaine is still being produced, and in the same area in recent years, the Shining Path group (a communist revolutionary organization) has been part of some violent incidents. Although tourists are not generally targeted by drug traffickers or Shining Path members, you still need to be extra vigilant in these areas.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;9.&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/travel-insurance/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Buy travel insurance&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;&amp;ndash; In the case that something does go wrong, it&amp;rsquo;ll be a lot less stressful if you have travel insurance. You should have it whenever you travel, but in a country where petty theft is, unfortunately, a little more common, it&amp;rsquo;s even more important. And of course, it&amp;rsquo;s also important for covering any medical or other emergency situation you might encounter.&lt;/p&gt;\r\n\r\n&lt;p&gt;We recommend&amp;nbsp;&lt;a href=&quot;https://www.worldnomads.com/lovedby/nomadic-matt?affiliate=nmts&amp;amp;subId=brandlink&amp;amp;utm_source=nmts&amp;amp;utm_medium=affiliate&amp;amp;utm_campaign=Affiliate&amp;amp;utm_content=brandlink&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;World Nomads&lt;/a&gt;&amp;nbsp;for travelers under 70, while&amp;nbsp;&lt;a href=&quot;https://www.insuremytrip.com/?linkId=5d1cb667a65d12041eca44ec&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Insure My Trip&lt;/a&gt;&amp;nbsp;is the best choice for travelers over 70.&lt;/p&gt;\r\n\r\n&lt;p&gt;For more information on tarvel insurance, check out these posts:&lt;/p&gt;\r\n\r\n&lt;ul&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/what-does-travel-insurance-cover/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;What Does Travel Insurance ACTUALLY Cover?&lt;/a&gt;&lt;/li&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/best-travel-insurance-companies/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;The 7 Best Travel Companies in 2019&lt;/a&gt;&lt;/li&gt;\r\n	&lt;li&gt;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/travel-insurance/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;How to Buy the Best Travel Insurance&lt;/a&gt;&lt;/li&gt;\r\n&lt;/ul&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;alpacas standing on a hill in Peru&quot; src=&quot;https://media.nomadicmatt.com/2019/peru_alpacas.jpg&quot; /&gt;&lt;br /&gt;\r\nWith these travel tips, you&amp;rsquo;ll be able to stay safe while you visit or backpack around Peru! Furthermore, here are answers to some frequently asked questions we get:&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Machu Picchu safe?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Machu Picchu is such a common tourist destination that you&amp;rsquo;ll most likely be safer here than any other part of Peru. Chances are you&amp;rsquo;ll be hiking with a group or in a crowd, so pickpockets and other petty thieves are unlikely to be around. It&amp;rsquo;s much more important to be vigilant in cities like Lima or Cusco.&lt;/p&gt;\r\n\r\n&lt;p&gt;The more important safety issue if you are&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/hiking-the-inca-trail/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;hiking to Machu Picchu&lt;/a&gt;&amp;nbsp;is to take care of your health. Make sure you have plenty of water, and use sunscreen and hats to deal with the heat. If you&amp;rsquo;re not acclimatized to the altitude, then altitude sickness can be a problem; you need to take it seriously if you start to feel sick. Avoid this by staying in Cusco for at least a couple of days before visiting Machu Picchu.&lt;/p&gt;\r\n\r\n&lt;p&gt;Finally, if you use a guide, which is recommended when hiking, make sure they are a licensed operator, as you sometimes hear of unlicensed guides taking you the wrong route and keeping your hiking permit payment for themselves.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Peru safe to travel alone?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Solo travel is pretty common in Peru, and you&amp;rsquo;ll often find plenty of other solo backpackers to spend time with, so it&amp;rsquo;s unlikely you&amp;rsquo;ll be alone that much.&lt;/p&gt;\r\n\r\n&lt;p&gt;Bus travel and being out after dark anywhere is safer in a group, but in general, solo travel in Peru is no more dangerous than traveling with friends or a partner.&lt;/p&gt;\r\n\r\n&lt;p&gt;Remember, too, to avoid really standing out and looking like a tourist. Don&amp;rsquo;t dress in fancy clothes, don&amp;rsquo;t wave your expensive gadgets around, and if you get lost, don&amp;rsquo;t stand there staring at a map. Basically, avoid sticking out like a sore thumb, and you&amp;rsquo;ll immediately reduce the chance of a petty thief deciding you&amp;rsquo;re their next victim.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is it safe to travel to Peru with kids?&lt;/h3&gt;\r\n\r\n&lt;p&gt;On the whole, it&amp;rsquo;s not especially unsafe to take your kids to Peru. Family and children are very important in the Peruvian culture, so you and your kids will be made to feel very welcome.&lt;/p&gt;\r\n\r\n&lt;p&gt;Be careful with particularly small children, though, because they&amp;rsquo;re more susceptible to getting sick from unfiltered water, for example. It&amp;rsquo;s also not recommended to take kids under three to high altitudes such as Machu Picchu.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Is Peru safe for female travelers?&lt;/h3&gt;\r\n\r\n&lt;p&gt;It&amp;rsquo;s not particularly more&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/female-travel-safety/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;unsafe to be a female traveler&lt;/a&gt;&amp;nbsp;in Peru, though you might be the victim of some unwanted attention, mostly in the form of catcalling &amp;mdash; but just ignore it and move on. Local women in Peru rarely go out to bars without men, so if you are a women-only group in a bar, you might get some extra attention.&lt;/p&gt;\r\n\r\n&lt;p&gt;Avoid being alone if you can, especially after dark, because petty thieves will see you as an easy target. Having said that, if you are a solo female traveler and need help, most locals will be very understanding and do their best to assist you.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Can you drink the water in Peru?&lt;/h3&gt;\r\n\r\n&lt;p&gt;While tap water is plentiful in the country and indoor plumbing is common, it&amp;rsquo;s advised that you boil all your drinking water while in Peru. Make sure to boil your water for at least 1 minute to remove any contaminants. If you have a&amp;nbsp;&lt;a href=&quot;https://amzn.to/2TwpndX&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Lifestraw&lt;/a&gt;&amp;nbsp;or&amp;nbsp;&lt;a href=&quot;https://amzn.to/2K5Qg68&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;SteriPen&lt;/a&gt;&amp;nbsp;you can use either of those to ensure your water is always safe to drink. Additionally, bring a reusable water bottle to avoid single-use plastic.&lt;/p&gt;\r\n\r\n&lt;h3&gt;Are taxis safe in Peru?&lt;/h3&gt;\r\n\r\n&lt;p&gt;Taxis are relatively safe, but you&amp;rsquo;ll want to make sure that you only use authorized taxis and that you know the rate in advance. If you need a taxi, have your hostel or hotel call one for you and find out what the rate is in advance. Make sure you agree on the fare with the driver in advance, as taxis don&amp;rsquo;t use meters so it&amp;rsquo;s easy to get overcharged if you&amp;rsquo;re not paying attention.&lt;/p&gt;\r\n\r\n&lt;p&gt;Try to avoid riding alone at night, especially if you&amp;rsquo;re a solo female traveler.&lt;/p&gt;\r\n\r\n&lt;p&gt;Peru is an amazing destination no matter what your interests, with a fascinating culture, welcoming people, and amazing landscapes and historical sights. I think everyone should check these out for themselves!&lt;/p&gt;\r\n\r\n&lt;p&gt;You do need to be cautious about your personal safety, however. The most common issues travelers face there are petty theft and pickpocketing, but by exercising a bit of extra vigilance and common sense, you can protect yourself against much of this. If you also make sure you&amp;rsquo;re not carrying valuables in an obvious way and don&amp;rsquo;t have large sums of cash in one place, the risks of having significant losses are really low.&lt;/p&gt;', 'c2eef7c9d90bfb0fbd50857c2b98311eaf85c54f_d4754afcef8595de5fd00cf35f65e6ae64b9f1a3.jpg', 'PERU', '', 0, 1573303773, 'enabled'),
+(17, 1, 1, 'IS MOROCCO SAFE? 9 WAYS TO STAY SAFE DURING YOUR VISIT', '&lt;p&gt;Wandering around the&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/morocco-travel-guide/fez/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Fez medina&lt;/a&gt;, I could feel the stares. &amp;ldquo;Where are you going? Want to go to the tanneries? I&amp;rsquo;ll take you. No money. Don&amp;rsquo;t worry!&amp;rdquo; the medina&amp;rsquo;s faux guides said as they chased me down the street.&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;ldquo;No, I&amp;rsquo;m fine,&amp;rdquo; I&amp;rsquo;d reply, trying to dodge them at every turn. Turning down side streets, stopping to look at a map, or admiring a view caused them and any nearby vendor to pounce and badger me, inviting me into stores, restaurants, and attractions.&lt;/p&gt;\r\n\r\n&lt;p&gt;There were moments when I would turn down streets only to have my spidey sense tell me to turn back. A few guys tried to corner me before I managed to slip into a store. Heck, even a little kid tried to pick my pocket. While other cities were not as intense as Fez, my&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-guides/morocco-travel-guide/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;visit to Morocco&lt;/a&gt;&amp;nbsp;required a thick skin and a watchful eye.&lt;/p&gt;\r\n\r\n&lt;p&gt;Before my trip to Morocco, I queried a number of friends about their experiences. I&amp;rsquo;d heard horror stories of touts, harassment, pickpockets, and scams. While that is common everywhere, Morocco travel seemed to take it to another level. &amp;ldquo;Keep an eye out,&amp;rdquo; everyone warned.&lt;/p&gt;\r\n\r\n&lt;p&gt;After two weeks visiting Morocco (which is amazing &amp;mdash;&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/top-things-morocco/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;see this post, where I fawn all over it!&lt;/a&gt;) with Intrepid Travel on their Best of Morocco tour, I could see why people say Morocco demands extra diligence when it comes to staying safe in Morocco. Touts, scammers, and harassers abound and, while it wasn&amp;rsquo;t bad when I was with my group, when I was alone, it was intense. As I settled into the famous and secluded Caf&amp;eacute; Clock in Fez to relax, I messaged fellow writers online to ask if I was overreacting or if they felt the same way.&lt;/p&gt;\r\n\r\n&lt;p&gt;&amp;ldquo;No, it&amp;rsquo;s not just you,&amp;rdquo; was the universal reply.&lt;/p&gt;\r\n\r\n&lt;h3&gt;How to Stay Safe in Morocco&lt;/h3&gt;\r\n\r\n&lt;p&gt;In truth, Morocco is a safe place to visit. There&amp;rsquo;s only really small crime there (scams and pickpockets) and you&amp;rsquo;re unlikely to be assaulted or seriously hurt as a tourist in the country. Morocco is super safe for tourists now. As a solo female traveler, you need to watch out a little more carefully but, overall, you are still unlikely to encounter serious problems.&lt;/p&gt;\r\n\r\n&lt;p&gt;Morocco travel requires extra vigilance because it&amp;rsquo;s easy to have something happen to you. You&amp;rsquo;re unlikely to ever be in any real physical danger in Morocco, but the petty crime and harassment require you to stay on guard &amp;mdash; more so than other countries. However, if you follow a few rules, you can leave Morocco unscathed and without incidence.&lt;/p&gt;\r\n\r\n&lt;p&gt;Here are my 9 tips on how to stay safe when you visit Morocco:&lt;/p&gt;\r\n\r\n&lt;ol&gt;\r\n	&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t walk alone at night&lt;/strong&gt;&amp;nbsp;&amp;mdash; While walking in well-lit and busy areas can be fine, be careful walking at night. You never know what lurks around the corner in the medinas. Petty crime is rampant here, especially against tourists.&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t walk alone if you&amp;rsquo;re a woman&amp;nbsp;&lt;/strong&gt;&amp;mdash;&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/female-travel-safety/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;A woman alone&lt;/a&gt;&amp;nbsp;will attract a lot of unwarranted attention from men, an increased chance of being followed, and the likelihood of groping. Even when I was with the girls on my trip, they got a lot of attention. I could only imagine how much worse it was when they were alone. And, as a female, especially do not walk alone at night!&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Dress conservatively&lt;/strong&gt;&amp;nbsp;&amp;mdash; Morocco is a conservative Muslim country, and it&amp;rsquo;s not appropriate to wear skimpy clothing. Keep your arms, shoulders, and legs covered (especially if you are a woman) to avoid any unwanted attention and conform to local norms.&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Avoid flashy jewelry&lt;/strong&gt;&amp;nbsp;&amp;mdash; A good universal rule, this takes on more urgency in a country where theft is common and people will see the jewelry as a sign of wealth and therefore try harder to scam you in stores or rob you on the streets.&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t carry valuables&lt;/strong&gt;&amp;nbsp;&amp;mdash; Since muggings and pickpockets are common, take the minimum you need when you leave your hotel or hostel. Don&amp;rsquo;t take your passport with you &amp;ndash; leave it in the hotel! A few people on my tour carried it around with them and when my guide found out, he looked like he was about to have a heart attack!&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Avoid back alleys &amp;mdash;&lt;/strong&gt;&amp;nbsp;The tiny alleys of the medina are beautiful to explore but sometimes they make you easy prey for scammers and thieves. Don&amp;rsquo;t venture too far away from the crowds.&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Watch for scams&lt;/strong&gt;&amp;nbsp;&amp;mdash; If someone asks you into their shop for tea, they are going to use that as a pretext to get you to buy something and, thanks to the ingrained psychological idea of reciprocity, you&amp;rsquo;ll probably give in. Don&amp;rsquo;t let anyone ask you to write a letter or read a postcard that their &amp;ldquo;cousin&amp;rdquo; sent to them in English/French/whatever your native language is. It&amp;rsquo;s a ruse to get you into their store and wear you down. Same with letting someone put henna on your hand. Once these vendors have you, they will be relentless about you trying on clothes, buying something, or giving them money. Say &amp;ldquo;no thank-you&amp;rdquo; and walk away.&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Say no to tour guides&lt;/strong&gt;&amp;nbsp;&amp;mdash; The people saying &amp;ldquo;no money&amp;rdquo; definitely want your money. They will try to get you into their shops or take you places and ask for money for the service. Be firm and tell them no. It doesn&amp;rsquo;t matter their age or how helpful they are, if they start walking with you, they will ask for money!&lt;/li&gt;\r\n	&lt;li&gt;&lt;strong&gt;Always negotiate taxi prices up front&amp;nbsp;&lt;/strong&gt;&amp;mdash; Always negotiate the price for taxis before you get in, as prices are going to be substantially inflated when you arrive at your destination.&lt;/li&gt;\r\n&lt;/ol&gt;\r\n\r\n&lt;p&gt;While this is good advice for&amp;nbsp;&lt;em&gt;any&lt;/em&gt;&amp;nbsp;country, Morocco is more intense than your average destination due to the sheer number of people who will give you unwanted attention. It takes a lot of energy to always be on your guard in a place where the simple act of asking for directions often leads people asking for money.&lt;/p&gt;\r\n\r\n&lt;p&gt;Is Morocco safe? Yes, for the most part. But visiting Morocco requires you to be a little tougher and keep an eagle out for problems. It requires you to be a little bit more skeptical.&lt;/p&gt;\r\n\r\n&lt;p&gt;I was insulated because I was on a tour, but when I was alone or with just a few people, people came out of the woodwork, catcalled my friends,&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/travel-blogs/dealing-with-harassment/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;grabbed at the girls&lt;/a&gt;, and blocked entrances to restaurants in order to accost us. Even after a decade of travel, I found myself wishing I had a companion to share the mental burden and wanting to scream, &amp;ldquo;Leave me alone so I can just enjoy your country!&amp;rdquo;&lt;/p&gt;\r\n\r\n&lt;p&gt;Many people have asked me if they should go visit Morocco alone.&lt;/p&gt;\r\n\r\n&lt;p&gt;My honest answer? If you&amp;rsquo;re a first-time traveler, it might be hard.&lt;/p&gt;\r\n\r\n&lt;p&gt;This was my first time in North Africa and it was an adjustment for me (and I&amp;rsquo;ve a very experienced traveler). I was glad to be on a tour and have a guide. If you don&amp;rsquo;t have a lot of travel experience or are&amp;nbsp;&lt;a href=&quot;https://www.nomadicmatt.com/product/solo-female-travel-guidebook/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;a woman traveling alone&lt;/a&gt;, it might just be too much. I might suggest going on a tour first instead of exploring the country solo. Moreover, it is hard to get into the remote desert and mountains on the public transportation systems. I wouldn&amp;rsquo;t drive here either as everyone races around mountain curves.&lt;/p&gt;\r\n\r\n&lt;p&gt;That said thousands of people come here alone and they are fine. If you&amp;rsquo;re OK in uncomfortable situations and a frenetic environment, you&amp;rsquo;ll be able to visit Morocco just fine!&lt;/p&gt;\r\n\r\n&lt;p&gt;Morocco was a battery on my senses &amp;mdash;&amp;nbsp;&lt;a href=&quot;https://instagram.com/p/6kXV5wDb9K/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;the food&lt;/a&gt;, the colors,&amp;nbsp;&lt;a href=&quot;https://instagram.com/p/6ehIhejb3m/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;the spices&lt;/a&gt;, the smells, and&amp;nbsp;&lt;a href=&quot;https://instagram.com/p/6zgwAmjbzm/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;the scenery&lt;/a&gt;&amp;nbsp;were unforgettable. (Also the doors &amp;mdash; they have such ornate and colorful doorways in Morocco. I have dozens of pictures of doors).&lt;/p&gt;\r\n\r\n&lt;p&gt;I would 100% recommend to anyone that they visit the country, but make sure you keep an extra eye out (especially in Fez) and have a thick skin for all the people asking you to buy things!&lt;/p&gt;\r\n\r\n&lt;p&gt;Morocco won&amp;rsquo;t be easy but it&amp;rsquo;s worth the visit &amp;ndash; and it&amp;rsquo;s a lot safer than you think!&lt;/p&gt;', '8c765b847859ffa2ed0042ea2358fdaafe961c51_6ebb0b22abc258c9c0440992998d00fbec907cd9.jpg', 'MOROCCO', '14', 0, 1573307053, 'enabled');
 
 -- --------------------------------------------------------
 
@@ -113,10 +116,10 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `key`, `value`) VALUES
-(17, 'site_name', 'Travel Blog'),
-(18, 'site_email', 'mohamed.sheir2014@gmail.com'),
-(19, 'site_status', 'enabled'),
-(20, 'site_close_msg', '&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:48px&quot;&gt;Site Now Is IN Maintainance Mode&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;');
+(21, 'site_name', 'Travel Blog'),
+(22, 'site_email', 'mohamed.sheir2014@gmail.com'),
+(23, 'site_status', 'enabled'),
+(24, 'site_close_msg', '&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size:48px&quot;&gt;Site Now Is IN Maintainance Mode&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;');
 
 -- --------------------------------------------------------
 
@@ -183,146 +186,146 @@ CREATE TABLE `users_group_permissions` (
 --
 
 INSERT INTO `users_group_permissions` (`id`, `users_group_id`, `page`) VALUES
-(46, 2, '/admin/login'),
-(47, 2, '/admin/login/submit'),
-(48, 1, '/admin/login'),
-(49, 1, '/admin/login/submit'),
-(50, 1, '/admin'),
-(51, 1, '/admin/dashboard'),
-(52, 1, '/admin/submit'),
-(53, 1, '/admin/users'),
-(54, 1, '/admin/users/add'),
-(55, 1, '/admin/users/submit'),
-(56, 1, '/admin/users/edit/:id'),
-(57, 1, '/admin/users/save/:id'),
-(58, 1, '/admin/users/delete/:id'),
-(59, 1, '/admin/profile/update'),
-(60, 1, '/admin/users-groups'),
-(61, 1, '/admin/users-groups/add'),
-(62, 1, '/admin/users-groups/submit'),
-(63, 1, '/admin/users-groups/edit/:id'),
-(64, 1, '/admin/users-groups/save/:id'),
-(65, 1, '/admin/users-groups/delete/:id'),
-(66, 1, '/admin/posts'),
-(67, 1, '/admin/posts/add'),
-(68, 1, '/admin/posts/submit'),
-(69, 1, '/admin/posts/edit/:id'),
-(70, 1, '/admin/posts/save/:id'),
-(71, 1, '/admin/posts/delete/:id'),
-(72, 1, '/admin/posts/:id/comments'),
-(73, 1, '/admin/comments/edit/:id'),
-(74, 1, '/admin/comments/save/:id'),
-(75, 1, '/admin/comments/delete/:id'),
-(76, 1, '/admin/categories'),
-(77, 1, '/admin/categories/add'),
-(78, 1, '/admin/categories/submit'),
-(79, 1, '/admin/categories/edit/:id'),
-(80, 1, '/admin/categories/save/:id'),
-(81, 1, '/admin/categories/delete/:id'),
-(82, 1, '/admin/settings'),
-(83, 1, '/admin/settings/save'),
-(84, 1, '/admin/contacts'),
-(85, 1, '/admin/contacts/reply/:id'),
-(86, 1, '/admin/contacts/send/:id'),
-(87, 1, '/admin/ads'),
-(88, 1, '/admin/ads/add'),
-(89, 1, '/admin/ads/submit'),
-(90, 1, '/admin/ads/edit/:id'),
-(91, 1, '/admin/ads/save/:id'),
-(92, 1, '/admin/ads/delete/:id'),
-(93, 1, '/admin/logout'),
-(94, 1, '/admin/login'),
-(95, 1, '/admin/login/submit'),
-(96, 1, '/admin'),
-(97, 1, '/admin/dashboard'),
-(98, 1, '/admin/submit'),
-(99, 1, '/admin/users'),
-(100, 1, '/admin/users/add'),
-(101, 1, '/admin/users/submit'),
-(102, 1, '/admin/users/edit/:id'),
-(103, 1, '/admin/users/save/:id'),
-(104, 1, '/admin/users/delete/:id'),
-(105, 1, '/admin/profile/update'),
-(106, 1, '/admin/users-groups'),
-(107, 1, '/admin/users-groups/add'),
-(108, 1, '/admin/users-groups/submit'),
-(109, 1, '/admin/users-groups/edit/:id'),
-(110, 1, '/admin/users-groups/save/:id'),
-(111, 1, '/admin/users-groups/delete/:id'),
-(112, 1, '/admin/posts'),
-(113, 1, '/admin/posts/add'),
-(114, 1, '/admin/posts/submit'),
-(115, 1, '/admin/posts/edit/:id'),
-(116, 1, '/admin/posts/save/:id'),
-(117, 1, '/admin/posts/delete/:id'),
-(118, 1, '/admin/posts/:id/comments'),
-(119, 1, '/admin/comments/edit/:id'),
-(120, 1, '/admin/comments/save/:id'),
-(121, 1, '/admin/comments/delete/:id'),
-(122, 1, '/admin/categories'),
-(123, 1, '/admin/categories/add'),
-(124, 1, '/admin/categories/submit'),
-(125, 1, '/admin/categories/edit/:id'),
-(126, 1, '/admin/categories/save/:id'),
-(127, 1, '/admin/categories/delete/:id'),
-(128, 1, '/admin/settings'),
-(129, 1, '/admin/settings/save'),
-(130, 1, '/admin/contacts'),
-(131, 1, '/admin/contacts/reply/:id'),
-(132, 1, '/admin/contacts/send/:id'),
-(133, 1, '/admin/ads'),
-(134, 1, '/admin/ads/add'),
-(135, 1, '/admin/ads/submit'),
-(136, 1, '/admin/ads/edit/:id'),
-(137, 1, '/admin/ads/save/:id'),
-(138, 1, '/admin/ads/delete/:id'),
-(139, 1, '/admin/logout'),
-(140, 1, '/admin/login'),
-(141, 1, '/admin/login/submit'),
-(142, 1, '/admin'),
-(143, 1, '/admin/dashboard'),
-(144, 1, '/admin/submit'),
-(145, 1, '/admin/users'),
-(146, 1, '/admin/users/add'),
-(147, 1, '/admin/users/submit'),
-(148, 1, '/admin/users/edit/:id'),
-(149, 1, '/admin/users/save/:id'),
-(150, 1, '/admin/users/delete/:id'),
-(151, 1, '/admin/profile/update'),
-(152, 1, '/admin/users-groups'),
-(153, 1, '/admin/users-groups/add'),
-(154, 1, '/admin/users-groups/submit'),
-(155, 1, '/admin/users-groups/edit/:id'),
-(156, 1, '/admin/users-groups/save/:id'),
-(157, 1, '/admin/users-groups/delete/:id'),
-(158, 1, '/admin/posts'),
-(159, 1, '/admin/posts/add'),
-(160, 1, '/admin/posts/submit'),
-(161, 1, '/admin/posts/edit/:id'),
-(162, 1, '/admin/posts/save/:id'),
-(163, 1, '/admin/posts/delete/:id'),
-(164, 1, '/admin/posts/:id/comments'),
-(165, 1, '/admin/comments/edit/:id'),
-(166, 1, '/admin/comments/save/:id'),
-(167, 1, '/admin/comments/delete/:id'),
-(168, 1, '/admin/categories'),
-(169, 1, '/admin/categories/add'),
-(170, 1, '/admin/categories/submit'),
-(171, 1, '/admin/categories/edit/:id'),
-(172, 1, '/admin/categories/save/:id'),
-(173, 1, '/admin/categories/delete/:id'),
-(174, 1, '/admin/settings'),
-(175, 1, '/admin/settings/save'),
-(176, 1, '/admin/contacts'),
-(177, 1, '/admin/contacts/reply/:id'),
-(178, 1, '/admin/contacts/send/:id'),
-(179, 1, '/admin/ads'),
-(180, 1, '/admin/ads/add'),
-(181, 1, '/admin/ads/submit'),
-(182, 1, '/admin/ads/edit/:id'),
-(183, 1, '/admin/ads/save/:id'),
-(184, 1, '/admin/ads/delete/:id'),
-(185, 1, '/admin/logout');
+(46, 2, 'admin/login'),
+(47, 2, 'admin/login/submit'),
+(48, 1, 'admin/login'),
+(49, 1, 'admin/login/submit'),
+(50, 1, 'admin'),
+(51, 1, 'admin/dashboard'),
+(52, 1, 'admin/submit'),
+(53, 1, 'admin/users'),
+(54, 1, 'admin/users/add'),
+(55, 1, 'admin/users/submit'),
+(56, 1, 'admin/users/edit/:id'),
+(57, 1, 'admin/users/save/:id'),
+(58, 1, 'admin/users/delete/:id'),
+(59, 1, 'admin/profile/update'),
+(60, 1, 'admin/users-groups'),
+(61, 1, 'admin/users-groups/add'),
+(62, 1, 'admin/users-groups/submit'),
+(63, 1, 'admin/users-groups/edit/:id'),
+(64, 1, 'admin/users-groups/save/:id'),
+(65, 1, 'admin/users-groups/delete/:id'),
+(66, 1, 'admin/posts'),
+(67, 1, 'admin/posts/add'),
+(68, 1, 'admin/posts/submit'),
+(69, 1, 'admin/posts/edit/:id'),
+(70, 1, 'admin/posts/save/:id'),
+(71, 1, 'admin/posts/delete/:id'),
+(72, 1, 'admin/posts/:id/comments'),
+(73, 1, 'admin/comments/edit/:id'),
+(74, 1, 'admin/comments/save/:id'),
+(75, 1, 'admin/comments/delete/:id'),
+(76, 1, 'admin/categories'),
+(77, 1, 'admin/categories/add'),
+(78, 1, 'admin/categories/submit'),
+(79, 1, 'admin/categories/edit/:id'),
+(80, 1, 'admin/categories/save/:id'),
+(81, 1, 'admin/categories/delete/:id'),
+(82, 1, 'admin/settings'),
+(83, 1, 'admin/settings/save'),
+(84, 1, 'admin/contacts'),
+(85, 1, 'admin/contacts/reply/:id'),
+(86, 1, 'admin/contacts/send/:id'),
+(87, 1, 'admin/ads'),
+(88, 1, 'admin/ads/add'),
+(89, 1, 'admin/ads/submit'),
+(90, 1, 'admin/ads/edit/:id'),
+(91, 1, 'admin/ads/save/:id'),
+(92, 1, 'admin/ads/delete/:id'),
+(93, 1, 'admin/logout'),
+(94, 1, 'admin/login'),
+(95, 1, 'admin/login/submit'),
+(96, 1, 'admin'),
+(97, 1, 'admin/dashboard'),
+(98, 1, 'admin/submit'),
+(99, 1, 'admin/users'),
+(100, 1, 'admin/users/add'),
+(101, 1, 'admin/users/submit'),
+(102, 1, 'admin/users/edit/:id'),
+(103, 1, 'admin/users/save/:id'),
+(104, 1, 'admin/users/delete/:id'),
+(105, 1, 'admin/profile/update'),
+(106, 1, 'admin/users-groups'),
+(107, 1, 'admin/users-groups/add'),
+(108, 1, 'admin/users-groups/submit'),
+(109, 1, 'admin/users-groups/edit/:id'),
+(110, 1, 'admin/users-groups/save/:id'),
+(111, 1, 'admin/users-groups/delete/:id'),
+(112, 1, 'admin/posts'),
+(113, 1, 'admin/posts/add'),
+(114, 1, 'admin/posts/submit'),
+(115, 1, 'admin/posts/edit/:id'),
+(116, 1, 'admin/posts/save/:id'),
+(117, 1, 'admin/posts/delete/:id'),
+(118, 1, 'admin/posts/:id/comments'),
+(119, 1, 'admin/comments/edit/:id'),
+(120, 1, 'admin/comments/save/:id'),
+(121, 1, 'admin/comments/delete/:id'),
+(122, 1, 'admin/categories'),
+(123, 1, 'admin/categories/add'),
+(124, 1, 'admin/categories/submit'),
+(125, 1, 'admin/categories/edit/:id'),
+(126, 1, 'admin/categories/save/:id'),
+(127, 1, 'admin/categories/delete/:id'),
+(128, 1, 'admin/settings'),
+(129, 1, 'admin/settings/save'),
+(130, 1, 'admin/contacts'),
+(131, 1, 'admin/contacts/reply/:id'),
+(132, 1, 'admin/contacts/send/:id'),
+(133, 1, 'admin/ads'),
+(134, 1, 'admin/ads/add'),
+(135, 1, 'admin/ads/submit'),
+(136, 1, 'admin/ads/edit/:id'),
+(137, 1, 'admin/ads/save/:id'),
+(138, 1, 'admin/ads/delete/:id'),
+(139, 1, 'admin/logout'),
+(140, 1, 'admin/login'),
+(141, 1, 'admin/login/submit'),
+(142, 1, 'admin'),
+(143, 1, 'admin/dashboard'),
+(144, 1, 'admin/submit'),
+(145, 1, 'admin/users'),
+(146, 1, 'admin/users/add'),
+(147, 1, 'admin/users/submit'),
+(148, 1, 'admin/users/edit/:id'),
+(149, 1, 'admin/users/save/:id'),
+(150, 1, 'admin/users/delete/:id'),
+(151, 1, 'admin/profile/update'),
+(152, 1, 'admin/users-groups'),
+(153, 1, 'admin/users-groups/add'),
+(154, 1, 'admin/users-groups/submit'),
+(155, 1, 'admin/users-groups/edit/:id'),
+(156, 1, 'admin/users-groups/save/:id'),
+(157, 1, 'admin/users-groups/delete/:id'),
+(158, 1, 'admin/posts'),
+(159, 1, 'admin/posts/add'),
+(160, 1, 'admin/posts/submit'),
+(161, 1, 'admin/posts/edit/:id'),
+(162, 1, 'admin/posts/save/:id'),
+(163, 1, 'admin/posts/delete/:id'),
+(164, 1, 'admin/posts/:id/comments'),
+(165, 1, 'admin/comments/edit/:id'),
+(166, 1, 'admin/comments/save/:id'),
+(167, 1, 'admin/comments/delete/:id'),
+(168, 1, 'admin/categories'),
+(169, 1, 'admin/categories/add'),
+(170, 1, 'admin/categories/submit'),
+(171, 1, 'admin/categories/edit/:id'),
+(172, 1, 'admin/categories/save/:id'),
+(173, 1, 'admin/categories/delete/:id'),
+(174, 1, 'admin/settings'),
+(175, 1, 'admin/settings/save'),
+(176, 1, 'admin/contacts'),
+(177, 1, 'admin/contacts/reply/:id'),
+(178, 1, 'admin/contacts/send/:id'),
+(179, 1, 'admin/ads'),
+(180, 1, 'admin/ads/add'),
+(181, 1, 'admin/ads/submit'),
+(182, 1, 'admin/ads/edit/:id'),
+(183, 1, 'admin/ads/save/:id'),
+(184, 1, 'admin/ads/delete/:id'),
+(185, 1, 'admin/logout');
 
 --
 -- Indexes for dumped tables
@@ -387,36 +390,43 @@ ALTER TABLE `users_group_permissions`
 --
 ALTER TABLE `categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
 --
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
 --
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
 --
 -- AUTO_INCREMENT for table `settings`
 --
 ALTER TABLE `settings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
 --
 -- AUTO_INCREMENT for table `users_groups`
 --
 ALTER TABLE `users_groups`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `users_group_permissions`
 --
 ALTER TABLE `users_group_permissions`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=186;
+
 --
 -- Constraints for dumped tables
 --
@@ -446,6 +456,7 @@ ALTER TABLE `users`
 --
 ALTER TABLE `users_group_permissions`
   ADD CONSTRAINT `FK_USER_GROUP` FOREIGN KEY (`users_group_id`) REFERENCES `users_groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -69,7 +69,7 @@ class CategoriesController extends Controller
         $categoriesModel = $this->load->model('Categories');
 
         if (! $categoriesModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $category = $categoriesModel->get($id);
@@ -141,7 +141,7 @@ class CategoriesController extends Controller
         $categoriesModel = $this->load->model('Categories');
 
         if (! $categoriesModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $categoriesModel->delete($id);

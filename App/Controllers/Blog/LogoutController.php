@@ -16,6 +16,6 @@ class LogoutController extends Controller
         $this->session->destroy();
         $this->cookie->destroy();
 
-        return $this->url->redirectTo('/');
+        return $this->url->redirectTo('');
     }                                   
 }

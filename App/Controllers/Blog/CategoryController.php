@@ -18,7 +18,7 @@ class CategoryController extends Controller
         $category = $this->load->model('Categories')->getCategoryWithPosts($id);
 
         if (! $category) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $this->html->setTitle($category->name);

@@ -69,7 +69,7 @@ class PostsController extends Controller
         $postsModel = $this->load->model('Posts');
 
         if (! $postsModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $post = $postsModel->get($id);
@@ -164,7 +164,7 @@ class PostsController extends Controller
         $postsModel = $this->load->model('Posts');
 
         if (! $postsModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $postsModel->delete($id);

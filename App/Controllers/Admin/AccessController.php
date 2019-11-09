@@ -15,7 +15,7 @@ class AccessController extends Controller
     {
         $loginModel = $this->load->model('Login');
 
-        $ignoredPages = ['/admin/login', '/admin/login/submit'];
+        $ignoredPages = ['admin/login', 'admin/login/submit'];
                          
         $currentRoute = $this->route->getCurrentRouteUrl();
 
@@ -25,7 +25,7 @@ class AccessController extends Controller
         // User is not logged in and he is not requesting login page
         // then redirect him to login page
         if ($isNotLogged AND ! in_array($currentRoute , $ignoredPages)) {
-            return $this->url->redirectTo('/admin/login');
+            return $this->url->redirectTo('admin/login');
         }
 
         // There are two possibilities
@@ -46,7 +46,7 @@ class AccessController extends Controller
         // If the user doesn't have permissions to access this page
         //  then he will be redirected to 404 page
         if (! in_array($currentRoute, $usersGroup->pages)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
     }
 }

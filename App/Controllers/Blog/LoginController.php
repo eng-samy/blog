@@ -21,7 +21,7 @@ class LoginController extends Controller
         $this->blogLayout->disable('sidebar');
 
         if ($loginModel->isLogged()) {
-            return $this->url->redirectTo('/');
+            return $this->url->redirectTo('');
         }
 
         $data['errors'] = $this->errors;

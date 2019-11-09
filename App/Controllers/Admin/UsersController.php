@@ -69,7 +69,7 @@ class UsersController extends Controller
         $usersModel = $this->load->model('Users');
 
         if (! $usersModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $user = $usersModel->get($id);
@@ -161,7 +161,7 @@ class UsersController extends Controller
         $usersModel = $this->load->model('Users');
 
         if (! $usersModel->exists($id) OR $id == 1) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $usersModel->delete($id);

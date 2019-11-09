@@ -18,7 +18,7 @@ class PostController extends Controller
         $post = $this->load->model('Posts')->getPostWithComments($id);
 
         if (! $post) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $this->html->setTitle($post->title);
@@ -48,14 +48,14 @@ class PostController extends Controller
         $post = $postsModel->get($id);
 
         if (! $post OR $post->status == 'disabled' OR ! $comment OR ! $loginModel->isLogged()) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $user = $loginModel->user();
 
         $postsModel->addNewComment($id, $comment, $user->id);
 
-        return $this->url->redirectTo('/post/' . $title . '/' . $id . '#comments');
+        return $this->url->redirectTo('post/' . $title . '/' . $id . '#comments');
     }
 
      /**

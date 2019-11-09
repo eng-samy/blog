@@ -16,7 +16,7 @@ class RegisterController extends Controller
         $loginModel = $this->load->model('Login');
         
         if ($loginModel->isLogged()) {
-            return $this->url->redirectTo('/');
+            return $this->url->redirectTo('');
         }
 
         $this->blogLayout->title('Create New Account');

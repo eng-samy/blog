@@ -47,7 +47,7 @@ class SettingsController extends Controller
 
             $this->session->set('success', 'Ad Has Been Created Successfully');
 
-            $this->url->redirectTo('/admin/settings');
+            $this->url->redirectTo('admin/settings');
         } else {
             // There are errors in form validation
             $this->session->set('errors', $this->validator->flattenMessages());

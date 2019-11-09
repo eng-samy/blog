@@ -69,7 +69,7 @@ class UsersGroupsController extends Controller
         $usersGroupsModel = $this->load->model('UsersGroups');
 
         if (! $usersGroupsModel->exists($id)) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $usersGroup = $usersGroupsModel->get($id);
@@ -164,7 +164,7 @@ class UsersGroupsController extends Controller
         $usersGroupsModel = $this->load->model('UsersGroups');
 
         if (! $usersGroupsModel->exists($id) OR $id == 1) {
-            return $this->url->redirectTo('/404');
+            return $this->url->redirectTo('404');
         }
 
         $usersGroupsModel->delete($id);
